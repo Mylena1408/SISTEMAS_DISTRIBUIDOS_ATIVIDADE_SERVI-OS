@@ -37,34 +37,7 @@ A comunicação entre os componentes ocorre através de conexões TCP, permitind
 ## Estrutura do Projeto
 
 ```
-SistemaAssinaturasDistribuido/
-
-├── auditoria/
-│   ├── server.py
-│
-├── cobranca/
-│   ├── server.py
-│   ├── cliente_auditoria.py
-│
-├── notificacao/
-│   ├── server.py
-│   ├── cliente_notificacao.py
-│
-├── templates/
-│   └── index.html
-│
-├── utils/
-│   ├── lamport.py
-│   └── ntp_cliente.py
-│
-├── app.py
-├── banco.py
-├── assinaturas.db
-├── requirements.txt
-└── README.md
-```
-
----
+observe_a_imagem_UML_do_projeto
 
 ## Tecnologias Utilizadas
 
